@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LoginView: View {
     
+    @Environment(AuthManager.self) var authManager // Access the authManager from the environment
+    
     @State private var email: String = ""
     @State private var password: String = ""
     
@@ -32,6 +34,7 @@ struct LoginView: View {
                     print("Sign up user: \(email), \(password)")
                     
                     // TODO: Sign up user
+                    authManager.signUp(email: email, password: password) // Sign in user via authManager
                 }
                 .buttonStyle(.borderedProminent)
                 
@@ -39,6 +42,7 @@ struct LoginView: View {
                     print("Login user: \(email), \(password)")
                     
                     // TODO: Login user
+                    authManager.signIn(email: email, password: password)
                 }
                 .buttonStyle(.bordered)
             }
@@ -48,4 +52,5 @@ struct LoginView: View {
 
 #Preview {
     LoginView()
+        .environment(AuthManager()) // For the preview to work, pass an instance of AuthManager into the environment
 }

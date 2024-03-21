@@ -14,6 +14,8 @@
 		CFBD2E1C2BA7B4D70093029A /* FireChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD2E1B2BA7B4D70093029A /* FireChatApp.swift */; };
 		CFBD2E202BA7B4D80093029A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBD2E1F2BA7B4D80093029A /* Assets.xcassets */; };
 		CFBD2E232BA7B4D80093029A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBD2E222BA7B4D80093029A /* Preview Assets.xcassets */; };
+		CFED20132BABC943002DF68A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED20122BABC943002DF68A /* AuthManager.swift */; };
+		CFED20152BABD896002DF68A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFED20142BABD896002DF68A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +24,8 @@
 		CFBD2E1B2BA7B4D70093029A /* FireChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireChatApp.swift; sourceTree = "<group>"; };
 		CFBD2E1F2BA7B4D80093029A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFBD2E222BA7B4D80093029A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CFED20112BABC828002DF68A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFED20122BABC943002DF68A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		CFED20142BABD896002DF68A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +69,11 @@
 		CFBD2E1A2BA7B4D70093029A /* FireChat */ = {
 			isa = PBXGroup;
 			children = (
+				CFED20122BABC943002DF68A /* AuthManager.swift */,
 				CFBD2E1B2BA7B4D70093029A /* FireChatApp.swift */,
 				CF12E51A2BAB4A5100F745DB /* LoginView.swift */,
 				CFBD2E1F2BA7B4D80093029A /* Assets.xcassets */,
-				CFED20112BABC828002DF68A /* GoogleService-Info.plist */,
+				CFED20142BABD896002DF68A /* GoogleService-Info.plist */,
 				CFBD2E212BA7B4D80093029A /* Preview Content */,
 			);
 			path = FireChat;
@@ -151,6 +155,7 @@
 			files = (
 				CFBD2E232BA7B4D80093029A /* Preview Assets.xcassets in Resources */,
 				CFBD2E202BA7B4D80093029A /* Assets.xcassets in Resources */,
+				CFED20152BABD896002DF68A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF12E51B2BAB4A5100F745DB /* LoginView.swift in Sources */,
+				CFED20132BABC943002DF68A /* AuthManager.swift in Sources */,
 				CFBD2E1C2BA7B4D70093029A /* FireChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +310,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +340,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
