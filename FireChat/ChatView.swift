@@ -39,7 +39,8 @@ struct ChatView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 SendMessageView { messageText in
-                    // TODO: Save message to Firestore
+                    // Save message to Firestore
+                    messageManager.sendMessage(text: messageText, username: authManager.userEmail ?? "")
                 }
             }
         }
