@@ -10,18 +10,19 @@
 		CF12E5152BAB48DC00F745DB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CF12E5142BAB48DC00F745DB /* FirebaseAuth */; };
 		CF12E5172BAB48E100F745DB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CF12E5162BAB48E100F745DB /* FirebaseFirestore */; };
 		CF12E5192BAB48EE00F745DB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF12E5182BAB48EE00F745DB /* FirebaseFirestoreSwift */; };
+		CF12E51B2BAB4A5100F745DB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF12E51A2BAB4A5100F745DB /* LoginView.swift */; };
 		CFBD2E1C2BA7B4D70093029A /* FireChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD2E1B2BA7B4D70093029A /* FireChatApp.swift */; };
-		CFBD2E1E2BA7B4D70093029A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBD2E1D2BA7B4D70093029A /* ContentView.swift */; };
 		CFBD2E202BA7B4D80093029A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBD2E1F2BA7B4D80093029A /* Assets.xcassets */; };
 		CFBD2E232BA7B4D80093029A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBD2E222BA7B4D80093029A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF12E51A2BAB4A5100F745DB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CFBD2E182BA7B4D70093029A /* FireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBD2E1B2BA7B4D70093029A /* FireChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireChatApp.swift; sourceTree = "<group>"; };
-		CFBD2E1D2BA7B4D70093029A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFBD2E1F2BA7B4D80093029A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFBD2E222BA7B4D80093029A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFED20112BABC828002DF68A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				CFBD2E1B2BA7B4D70093029A /* FireChatApp.swift */,
-				CFBD2E1D2BA7B4D70093029A /* ContentView.swift */,
+				CF12E51A2BAB4A5100F745DB /* LoginView.swift */,
 				CFBD2E1F2BA7B4D80093029A /* Assets.xcassets */,
+				CFED20112BABC828002DF68A /* GoogleService-Info.plist */,
 				CFBD2E212BA7B4D80093029A /* Preview Content */,
 			);
 			path = FireChat;
@@ -159,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFBD2E1E2BA7B4D70093029A /* ContentView.swift in Sources */,
+				CF12E51B2BAB4A5100F745DB /* LoginView.swift in Sources */,
 				CFBD2E1C2BA7B4D70093029A /* FireChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
